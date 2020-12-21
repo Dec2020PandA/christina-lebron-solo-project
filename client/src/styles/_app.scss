@@ -1,0 +1,23 @@
+.app {
+	background-size: cover;
+	background-image: url(http://images.unsplash.com/photo-1550399105-c4db5fb85c18?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80);
+	display: flex;
+	min-height: 100vh;
+	position: relative;
+
+	&:before {
+		background: rgba(0, 0, 0, 0.8);
+		content: "";
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+}
+
+.main-section {
+	flex-grow: 2;
+	background: $white;
+	position: relative;
+}
